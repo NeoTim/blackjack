@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Blackjack : Blackjack calculator">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="fonts/style.css">
+
+    <title>Blackjack</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jdh8/blackjack">View on GitHub</a>
+
+          <h1 id="project_title">Blackjack</h1>
+          <h2 id="project_tagline">Blackjack calculator</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/jdh8/blackjack/zipball/gh-pages">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/jdh8/blackjack/tarball/gh-pages">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="blackjack" class="anchor" href="#blackjack" aria-hidden="true"><span class="octicon octicon-link"></span></a>Blackjack</h1>
+
+<p>This blackjack calculator and game runs with modern web technology.  It is
+still in alpha, not intended for use right now.</p>
+
+<p>The computational part is an <a href="blackjack.js">asm.js module</a> for near-native
+performance.  For more information on asm.js, please visit <a href="http://asmjs.org/">its official
+website</a>.</p>
+
+<h2>
+<a id="calculator" class="anchor" href="#calculator" aria-hidden="true"><span class="octicon octicon-link"></span></a>Calculator</h2>
+
+<p>The expectancy and strategy calculator is based on Hi-Lo card counting and
+variation of rules of the game.</p>
+
+<p>[TODO]</p>
+
+<h2>
+<a id="game" class="anchor" href="#game" aria-hidden="true"><span class="octicon octicon-link"></span></a>Game</h2>
+
+<p>The game is an <a href="game.svg">SVG application</a> driven by JavaScript.  SVG instead of
+canvas is chosen because</p>
+
+<ul>
+<li>It can stand alone, easier to be embedded</li>
+<li>Reuse of existing vectorized playing cards</li>
+<li>Separation of presentation and content.</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Blackjack maintained by <a href="https://github.com/jdh8">jdh8</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
